@@ -1,0 +1,13 @@
+---
+server:
+  port: 8090
+management:
+  tracing:
+    sampling:
+      probability: 1
+  otlp:
+    tracing:
+      endpoint: http://localhost:4317
+spring:
+  application:
+    name: SportsClient

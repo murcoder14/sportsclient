@@ -1,0 +1,10 @@
+---
+server:
+  port: 8090
+management:
+  tracing:
+    sampling:
+      probability: 1
+spring:
+  application:
+    name: SportsClient
